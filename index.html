@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Walking Dead | Universo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<a class="logo" href="#inicio">TWD<span>+</span></a>
+<button id="menuBotao">☰</button>
+<nav id="navegacao">
+<a href="#inicio">Início</a>
+<a href="#sobre">Sobre</a>
+<a href="#personagens">Personagens</a>
+<a href="#temporadas">Temporadas</a>
+<a href="#curiosidades">Curiosidades</a>
+</nav>
+</header>
+
+<section id="inicio" class="hero">
+<div class="hero-text">
+<p class="tag">UM MUNDO DE SOBREVIVÊNCIA</p>
+<h1>THE WALKING<br><span>DEAD</span></h1>
+<p>Conheça a história, os personagens, as temporadas e curiosidades de uma das séries de zumbis mais conhecidas.</p>
+<div class="botoes">
+<a class="btn principal" href="#sobre">Explorar série</a>
+<a class="btn" href="#personagens">Personagens</a>
+</div>
+</div>
+<img class="cartaz" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/SDCC_2015_-_The_Walking_Dead_panel_%2819048933233%29.jpg" alt="Elenco de The Walking Dead">
+</section>
+
+<section id="sobre" class="secao">
+<p class="tag">A HISTÓRIA</p>
+<h2>Sobre a série</h2>
+<div class="sobre">
+<div>
+<p>The Walking Dead é uma série baseada nos quadrinhos criados por Robert Kirkman. A história acompanha sobreviventes tentando encontrar segurança em um mundo transformado por uma epidemia de mortos-vivos.</p>
+<p>Além dos walkers, os personagens enfrentam conflitos, perdas, escolhas difíceis e outros grupos de sobreviventes.</p>
+</div>
+<div class="numeros">
+<div><b>2010</b><small>Estreia</small></div>
+<div><b>11</b><small>Temporadas</small></div>
+<div><b>177</b><small>Episódios</small></div>
+</div>
+</div>
+</section>
+
+<section id="personagens" class="secao escura">
+<div class="central">
+<p class="tag">SOBREVIVENTES</p>
+<h2>Personagens principais</h2>
+<p>Alguns dos personagens mais marcantes da série.</p>
+</div>
+<div class="cards">
+<article class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Andrew_Lincoln_%2814774060355%29_%28cropped%29.jpg" alt="Rick Grimes - Andrew Lincoln"><div><span>01</span><h3>Rick Grimes</h3><p>Policial e líder que tenta proteger sua família e seu grupo.</p></div></article>
+<article class="card"><img src="https://commons.wikimedia.org/wiki/Special:Redirect/file/NormanReedus2015.jpg" alt="Daryl Dixon - Norman Reedus"><div><span>02</span><h3>Daryl Dixon</h3><p>Sobrevivente habilidoso, conhecido por sua besta e lealdade.</p></div></article>
+<article class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Danai_Gurira_%28Michonne%29.jpg" alt="Michonne - Danai Gurira"><div><span>03</span><h3>Michonne</h3><p>Guerreira determinada e uma grande aliada do grupo.</p></div></article>
+<article class="card"><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/MelissaMcBride.jpg" alt="Carol Peletier - Melissa McBride"><div><span>04</span><h3>Carol</h3><p>Uma personagem que muda muito e se torna uma forte sobrevivente.</p></div></article>
+</div>
+</section>
+
+<section id="temporadas" class="secao">
+<div class="central">
+<p class="tag">LINHA DO TEMPO</p>
+<h2>Temporadas</h2>
+<p>Clique nos números para ver um resumo.</p>
+</div>
+<div class="temporadas">
+<button onclick="mostrarTemporada(1)">01</button><button onclick="mostrarTemporada(2)">02</button>
+<button onclick="mostrarTemporada(3)">03</button><button onclick="mostrarTemporada(4)">04</button>
+<button onclick="mostrarTemporada(5)">05</button><button onclick="mostrarTemporada(6)">06</button>
+<button onclick="mostrarTemporada(7)">07</button><button onclick="mostrarTemporada(8)">08</button>
+<button onclick="mostrarTemporada(9)">09</button><button onclick="mostrarTemporada(10)">10</button>
+<button onclick="mostrarTemporada(11)">11</button>
+</div>
+<div id="informacao" class="temporada-info"><p class="tag">ESCOLHA UMA TEMPORADA</p><h3>Veja um resumo</h3><p>Selecione um dos números acima.</p></div>
+</section>
+
+<section id="curiosidades" class="secao escura">
+<div class="central"><p class="tag">VOCÊ SABIA?</p><h2>Curiosidades</h2></div>
+<div class="curiosidades">
+<div><span>01</span><h3>Origem</h3><p>A série foi inspirada nos quadrinhos de Robert Kirkman.</p></div>
+<div><span>02</span><h3>Walkers</h3><p>Os mortos-vivos são chamados principalmente de walkers.</p></div>
+<div><span>03</span><h3>Sobrevivência</h3><p>A história mostra pessoas diferentes tentando trabalhar juntas.</p></div>
+</div>
+</section>
+
+<section class="frase"><div><p class="tag">THE WALKING DEAD</p><h2>O perigo está em todos os lugares.</h2><p>Mas a esperança também.</p></div></section>
+
+
+<section class="creditos">
+    <p class="tag">CRÉDITOS DAS FOTOS</p>
+    <p>
+        Fotos de Andrew Lincoln, Norman Reedus, Danai Gurira e Melissa McBride:
+        Wikimedia Commons / Gage Skidmore e outros autores, sob licenças Creative Commons.
+        Foto do elenco: Gage Skidmore, Wikimedia Commons.
+    </p>
+</section>
+
+<footer><strong>TWD<span>+</span></strong><p>Projeto escolar feito com HTML, CSS e JavaScript.</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
